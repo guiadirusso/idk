@@ -1,0 +1,51 @@
+*{ 
+    padding: 0;
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+.tiraIlDado{ 
+    padding: 15px 25px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #c32cc9;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+.tiraIlDado:hover {background-color: #b4218f}
+
+body { 
+    height: 120vh;
+    font-size: default;
+    font-family: 'Times New Roman', Times, serif;
+    background: linear-gradient( 
+        rgb(223, 110, 110),
+        rgb(214, 125, 214)
+     )0 100% no-repeat;
+     background-size: 100% 50%;
+}
+
+.container1{ 
+    background-color: white;
+    width: 400px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    font: 1.5em Times;
+    padding: 50px;
+    position: absolute;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 8px;
+    box-shadow: 0 15px 35px rgb(75, 45, 45);
+}
+
+
+
+   
